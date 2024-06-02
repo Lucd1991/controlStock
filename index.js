@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
   res.status(200).json({
-    result: 'Control de stock lucd!!!!!!!!!!!!!!'
+    result: 'Control de stock ISP'
   });
 });
 
